@@ -51,4 +51,4 @@ Trong sơ đồ đào tạo ngành Khoa học Máy tính tại HUTECH, em chọn
 
 ## 6. Bản v0 đã viết tại lớp
 
-![<img width="1177" height="2560" alt="image" src="https://github.com/user-attachments/assets/be1e36d7-b9f8-4c17-b888-f647e9340db5" />)
+![<img width="1177" height="2560" alt="image" src="https://github.com/user-attachments/assets/be1e36d7-b9f8-4c17-b888-f647e9340db5" />).
