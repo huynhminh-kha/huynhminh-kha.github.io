@@ -1,56 +1,53 @@
-# BÀI TẬP ĐÁNH GIÁ VÀ KHAI THÁC CÔNG CỤ AI
+1. Bộ kiểm thử năm câu (có dữ liệu địa phương)
+Câu 1 (Dữ liệu địa phương): "Hãy cung cấp thông tin chi tiết, địa chỉ chính xác và lịch sử hình thành của một di tích lịch sử hoặc địa danh nổi tiếng tại địa phương nơi tôi sinh sống (ví dụ: các di tích lịch sử cấp tỉnh/thành phố ít phổ biến trên internet)."
 
-## I. Bộ kiểm thử 5 câu (Test Prompts)
+Câu 2 (Dữ liệu địa phương): "Liệt kê các tuyến xe buýt đi qua một trục đường cụ thể tại khu vực tôi ở và giá vé cập nhật mới nhất năm nay."
 
-### 1. Dữ liệu địa phương 1 (Quy định hành chính)
-* **Nội dung câu hỏi:** "Hãy nêu chi tiết khung giờ cấm xe tải nhẹ và xe tải nặng lưu thông vào khu vực nội đô TP. Hồ Chí Minh theo Quyết định số 23/2018/QĐ-UBND cùng các trường hợp được cấp phép đặc biệt."
-* **Mục tiêu kiểm thử:** Kiểm tra khả năng tra cứu văn bản pháp quy địa phương, độ chính xác về mốc thời gian và ngoại lệ quy định.
+Câu 3 (Chuyên môn công nghệ): "Hãy viết một đoạn mã ngắn bằng JavaScript để xử lý mảng trùng lặp, giải thích từng dòng và tối ưu hóa độ phức tạp thời gian."
 
-### 2. Dữ liệu địa phương 2 (Dự án hạ tầng & Kinh tế)
-* **Nội dung câu hỏi:** "Trình bày tiến độ hoàn thành, tổng mức đầu tư điều chỉnh và mốc thời gian vận hành thương mại chính thức của tuyến đường sắt đô thị Metro số 1 (Bến Thành – Suối Tiên) tính đến cuối năm 2024."
-* **Mục tiêu kiểm thử:** Đánh giá khả năng tổng hợp dữ liệu lịch sử dự án địa phương và khả năng phân biệt thông tin dự báo cũ so với thực tế triển khai.
+Câu 4 (Logic và phản biện): "So sánh ưu nhược điểm giữa việc dùng thư viện React.js và Vue.js khi xây dựng một trang web portfolio cá nhân quy mô nhỏ."
 
-### 3. Khái niệm lý thuyết chuyên ngành
-* **Nội dung câu hỏi:** "Giải thích cơ chế hoạt động của cơ chế chú ý (Self-Attention Mechanism) trong kiến trúc Transformer bằng một ví dụ thực tế trong xử lý ngôn ngữ tự nhiên."
-* **Mục tiêu kiểm thử:** Đánh giá năng lực giải thích khái niệm kỹ thuật phức tạp theo cách trực quan, chính xác về mặt lý thuyết.
+Câu 5 (Đời sống/Định hướng): "Lập kế hoạch chi tiết trong 3 tháng để một sinh viên năm nhất tự học lập trình Web từ con số không đến mức có thể tự làm sản phẩm đơn giản."
 
-### 4. Yêu cầu viết tổng quan (Kiểm thử câu "Đúng nhưng giá trị thấp")
-* **Nội dung câu hỏi:** "Trình bày 5 lợi ích của việc ứng dụng Trí tuệ nhân tạo (AI) trong giáo dục đại học hiện nay."
-* **Mục tiêu kiểm thử:** Đo lường nguy cơ tạo ra câu trả lời chung chung, đúng về lý thuyết nhưng thiếu độ sâu, thiếu ngữ cảnh thực tế và không có đề xuất hành động cụ thể.
+2. Bảng chấm năm tiêu chí
+Tiêu chí chấm (thang điểm 1 đến 4):
 
-### 5. Yêu cầu lập trình & Xử lý dữ liệu
-* **Nội dung câu hỏi:** "Viết hàm Python sử dụng thư viện Pandas để lấy danh sách top 3 sản phẩm có doanh thu cao nhất theo từng tháng từ DataFrame có các cột: `Ngay_Giao_Dich` (chuỗi YYYY-MM-DD), `Ma_San_Pham` và `Thanh_Tien`."
-* **Mục tiêu kiểm thử:** Kiểm tra logic lập trình, khả năng ép kiểu dữ liệu thời gian, cú pháp gom nhóm (groupby) và xử lý tối ưu.
+Độ chính xác thông tin.
 
----
+Tính hữu ích thực tế.
 
-## II. Bảng chấm điểm 5 tiêu chí (Evaluation Matrix)
+Độ chi tiết/Rõ ràng.
 
-**Thang điểm đánh giá (1 – 4):**
-* **1:** Rất kém / Sai sót nghiêm trọng
-* **2:** Cần cải thiện / Trung bình
-* **3:** Tốt / Đạt yêu cầu
-* **4:** Xuất sắc / Đầy đủ và chính xác tuyệt đối
+Tính logic/Mạch lạc.
 
-**Tiêu chí đánh giá:**
-* **TC1:** Độ chính xác thông tin (Accuracy)
-* **TC2:** Độ đầy đủ & Bối cảnh (Completeness & Context)
-* **TC3:** Đúng trọng tâm & Không lan man (Relevance)
-* **TC4:** Giá trị thực tiễn & Độ sâu (Practical Value & Depth)
-* **TC5:** Logic & Trình bày (Logic & Formatting)
+Giá trị phản biện/Độc đáo.
 
-| Câu kiểm thử | TC1 | TC2 | TC3 | TC4 | TC5 | Tổng / 20 | Nhận xét chi tiết & Phân loại |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| **Câu 1 (Xe tải TP.HCM)** | 3 | 3 | 4 | 3 | 4 | **17/20** | Nêu đúng khung giờ cấm (6h-9h và 16h-20h cho xe tải nhẹ), nhưng thiếu một số quy định sửa đổi bổ sung gần đây đối với xe chuyên dùng. |
-| **Câu 2 (Metro Số 1)** | 2 | 3 | 3 | 2 | 3 | **13/20** | Nhầm lẫn giữa các mốc chạy thử nghiệm và mốc vận hành thương mại chính thức. Cập nhật dữ liệu địa phương chưa đồng bộ. |
-| **Câu 3 (Self-Attention)** | 4 | 4 | 4 | 4 | 4 | **20/20** | Giải thích chính xác, ví dụ minh họa trực quan, phân tích rõ ma trận Query, Key, Value. |
-| **Câu 4 (AI trong giáo dục)** | **4** | **3** | **4** | **1** | **3** | **15/20** | **[ĐÚNG NHƯNG GIÁ TRỊ THẤP]** Thông tin hoàn toàn đúng về mặt lý thuyết (tự động hóa chấm điểm, học tập cá nhân hóa...), nhưng bài viết mang tính lý thuyết sáo rỗng, thiếu số liệu chứng minh, thiếu ví dụ ứng dụng thực tế tại Việt Nam. |
-| **Câu 5 (Lập trình Pandas)** | 4 | 4 | 4 | 3 | 4 | **19/20** | Code chạy chính xác, có ép kiểu `pd.to_datetime`, sử dụng `groupby` kết hợp `nlargest` chuẩn xác. |
+Đánh giá các câu:
 
----
+Câu 1 & 2 (Dữ liệu địa phương): Thường gặp hiện tượng thông tin bị chung chung hoặc sai lệch (có câu đạt mức điểm thấp về độ chính xác do AI bịa thông tin địa phương).
 
-## III. Bằng chứng AI bịa đặt thông tin (AI Hallucination Case)
+Câu 3 & 4: Đạt mức điểm cao (từ 3 đến 4 điểm) vì AI có thế mạnh về lập trình và kiến thức công nghệ phổ thông.
 
-### 1. Mô tả kịch bản kiểm thử
-* **Prompt nhập vào AI:** "Hãy tóm tắt nội dung Nghị định số 185/2025/NĐ-CP của Chính phủ về quy định ưu đãi thuế thu nhập doanh nghiệp cho các công ty khởi nghiệp trong lĩnh vực Trí tuệ nhân tạo tại TP.HCM."
-* **Kết quả AI trả lời
+Câu 5 (Ví dụ câu "đúng nhưng giá trị thấp"): AI trả lời rất dài dòng, đúng về mặt lý thuyết học tập chung nhưng lại quá sáo rỗng, không gắn liền với hoàn cảnh thực tế hay năng lực cụ thể của cá nhân, dẫn đến giá trị thực tiễn thấp (chấm điểm 2/4).
+
+3. Bằng chứng AI bịa (Hallucination)
+Prompt hỏi AI: "Cho tôi biết chi tiết về quyết định hoặc quy định mới nhất liên quan đến việc xây dựng hạ tầng CNTT tại địa phương tôi trong năm vừa qua."
+
+Câu trả lời của AI: AI tự tin bịa ra một số quyết định, số hiệu văn bản pháp luật và tên cơ quan ban hành nghe rất thuyết phục nhưng hoàn toàn không có thật.
+
+Minh chứng & Đối chiếu:
+
+Ảnh chụp màn hình (Screenshot): Lưu lại đoạn chat với AI hiển thị rõ ngày giờ.
+
+Nguồn đối chiếu: Kiểm tra trên cổng thông tin điện tử chính thống của địa phương hoặc văn bản pháp luật nhà nước, chứng minh không hề tồn tại quyết định có số hiệu hay nội dung như AI đã nêu.
+
+4. Bộ quy tắc của riêng em (5 quy tắc cá nhân)
+Quy tắc 1 (Kiểm chứng nguồn tin): Không bao giờ tin tuyệt đối vào các dữ liệu địa phương hoặc thông tin cụ thể do AI cung cấp nếu chưa có nguồn đối chiếu chính thống (Rút kinh nghiệm từ lần AI bịa thông tin ở phần Hallucination).
+
+Quy tắc 2 (Lọc thông tin sáo rỗng): Luôn yêu cầu AI đi thẳng vào trọng tâm, loại bỏ các câu trả lời chung chung, rập khuôn (Rút kinh nghiệm từ câu hỏi định hướng học tập nhận được kết quả đúng nhưng giá trị thấp).
+
+Quy tắc 3 (AI là người đồng hành, không làm thay): Chỉ sử dụng AI ở vai trò gợi ý khung, hỗ trợ giải thích hoặc tìm lỗi, tuyệt đối không sao chép toàn bộ mã nguồn hay bài viết do AI sinh ra (Rút kinh nghiệm trong suốt quá trình làm portfolio).
+
+Quy tắc 4 (Luôn giữ tư duy phản biện): Phải đặt câu hỏi ngược lại ("Làm sao tôi biết điều này đúng?") trước mỗi đề xuất tối ưu code hoặc cấu trúc bài viết của AI.
+
+Quy tắc 5 (Chịu trách nhiệm cuối cùng): Bản thân người học phải hiểu tường tận từng dòng code và nội dung có mặt trên website cá nhân trước khi đưa lên công khai.
