@@ -1,43 +1,16 @@
-TRANG BÌA (Theo mẫu chuẩn của Khoa/Trường)
-LỜI CẢM ƠN
-MỤC LỤC
-DANH MỤC BẢNG NGHỆ VÀ HÌNH VẼ
+# Bài Phản Tư Học Phần COS673
 
-CHƯƠNG 1: GIỚI THIỆU ĐỀ TÀI
-  1.1. Lý do chọn đề tài
-  1.2. Mục tiêu và Phạm vi nghiên cứu
-  1.3. Phương pháp tiếp cận
+## 1. Ba lần tôi không đồng ý với AI
+* **Lần 1:** AI đề xuất cấu trúc lộ trình nghề nghiệp quá lý thuyết và xa rời thực tế lập trình viên Frontend mà tôi hướng tới. Tôi đã giữ vững định hướng tập trung vào JavaScript/React.js. Cuối cùng tôi đúng vì nó sát với năng lực và mục tiêu cá nhân hiện tại, điều này được chứng minh qua việc tôi tự tay code được các trang web thực tế.
+* **Lần 2:** Khi viết về phần phân tích mô hình SWOT, AI gợi ý những điểm yếu quá chung chung. Tôi không đồng ý và tự viết lại dựa trên trải nghiệm thực tế của chính mình (như kỹ năng phản xạ tiếng Anh và kinh nghiệm thực chiến ít). Tôi biết mình đúng vì các số liệu và đánh giá đó phản ánh đúng tình trạng thật của bản thân.
+* **Lần 3:** AI đề xuất sử dụng một số công cụ hoặc thư viện quá phức tạp cho trang portfolio cá nhân. Tôi đã chọn cách đơn giản hóa bằng Markdown và GitHub Pages. Tôi đúng vì điều này giúp tôi làm chủ được toàn bộ mã nguồn mà không bị phụ thuộc vào công cụ ngoài.
 
-CHƯƠNG 2: CƠ SỞ LÝ THUYẾT / TỔNG QUAN
-  2.1. Khái niệm và Bối cảnh kỹ thuật
-  2.2. Tổng quan các giải pháp / nghiên cứu liên quan
+## 2. Một việc tôi làm được ở tuần 12 mà tuần 1 không làm được
+Vào tuần 1, tôi hoàn toàn bỡ ngỡ khi phải tự tay viết mã bằng Markdown, cấu trúc các trang web cá nhân và đưa lên GitHub Pages. Đến tuần 12, tôi đã tự lập và làm chủ hoàn toàn quy trình đóng gói một website gồm 6 trang hoàn chỉnh[cite: 3, 15], duy trì lịch sử commit đều đặn trên Git[cite: 3, 15], đồng thời tự tin giải thích được các file cấu hình và mã nguồn do chính mình tạo ra[cite: 12].
 
-CHƯƠNG 3: NỘI DUNG VÀ SẢN PHẨM THỰC HIỆN
-  3.1. Kiến trúc / Quy trình thiết kế sản phẩm
-  3.2. Mô tả chi tiết các thành phần sản phẩm (Trang web, Video, Infographic, Survey...)
-  3.3. Các công cụ và công nghệ sử dụng
+## 3. Một việc tôi VẪN chưa làm được và kế hoạch 4 tuần tới
+* **Việc chưa làm được:** Kỹ năng thuyết trình, bảo vệ ý tưởng trước đám đông và khả năng phản xạ tiếng Anh chuyên ngành của tôi vẫn còn rụt rè, chưa thực sự lưu loát.
+* **Kế hoạch 4 tuần tới:** Dành ra 30 phút mỗi ngày để luyện tập đọc hiểu tài liệu kỹ thuật tiếng Anh, tự luyện nói trước gương theo cấu trúc phép thử Feynman (giải thích khái niệm kỹ thuật trong 90 giây), và nhờ bạn bè đóng vai giảng viên để hỏi thử các câu hỏi vấn đáp[cite: 10, 16, 17].
 
-CHƯƠNG 4: KẾT QUẢ VÀ ĐÁNH GIÁ
-  4.1. Kết quả thu được (Hình ảnh thực tế, dữ liệu khảo sát)
-  4.2. Đánh giá ưu điểm và hạn chế
-
-KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN
-TÀI LIỆU THAM KHẢO (Trình bày chuẩn IEEE hoặc APA)
-PHỤ LỤC (Bảng phân công nhiệm vụ & Biên bản họp nhóm)
-# BÀI PHẢN TƯ NGHỀ NGHIỆP VÀ KIẾN TẬP
-
-### 1. Trải nghiệm (Experience)
-Qua các hoạt động định hướng nghề nghiệp và chuyến kiến tập thực tế tại doanh nghiệp vừa qua, tôi đã có cơ hội tiếp cận trực tiếp với môi trường làm việc chuyên nghiệp. Tại đây, tôi được lắng nghe chia sẻ từ các chuyên gia về quy trình vận hành dự án, cơ cấu tổ chức các phòng ban và xu hướng phát triển của ngành trong kỷ nguyên số. Bên cạnh đó, việc quan sát tác phong làm việc và cách phối hợp đội ngũ của các anh chị đi trước đã giúp tôi hình dung rõ nét về công việc thực tế của một nhân sự mới sau khi tốt nghiệp.
-
-### 2. Nhận thức (Awareness)
-Chuyến đi này đã thay đổi đáng kể nhận thức của tôi về khoảng cách giữa lý thuyết và thực tiễn. Tôi nhận ra kiến thức trên giảng đường là nền tảng cốt lõi, nhưng cách vận dụng linh hoạt vào giải quyết bài toán thực tế của doanh nghiệp mới là yếu tố quyết định. Văn hóa doanh nghiệp và kỹ năng giao tiếp công sở cũng đóng vai trò quan trọng không kém chuyên môn. Đặc biệt, việc bảo mật dữ liệu và an toàn thông tin — những điều tôi từng nghĩ chỉ dành cho bộ phận kỹ thuật — hóa ra lại là quy định bắt buộc đối với mọi nhân sự trong mọi phòng ban.
-
-### 3. Đánh giá bản thân (Self-evaluation)
-Nhìn nhận lại bản thân, tôi tự tin mình có tinh thần cầu tiến, khả năng tiếp thu nhanh và nền tảng lý thuyết khá vững vàng. Tuy nhiên, tôi cũng thẳng thắn thừa nhận những điểm hạn chế lớn. Kỹ năng làm việc nhóm từ xa, tư duy phản biện và năng lực giải quyết vấn đề khi chịu áp lực thời gian của tôi vẫn còn yếu. Tôi cũng nhận thấy mình còn rụt rè khi giao tiếp trực tiếp với các chuyên gia và chưa chủ động mở rộng mạng lưới mối quan hệ nghề nghiệp (networking).
-
-### 4. Kế hoạch hành động (Action Plan)
-Để chuẩn bị tốt nhất cho giai đoạn gia nhập thị trường lao động, tôi đặt ra kế hoạch hành động cụ thể gồm ba bước:
-- **Ngắn hạn (3 tháng tới):** Hoàn thiện các chứng chỉ kỹ năng mềm còn thiếu (giao tiếp, làm việc nhóm) và chủ động tham gia các dự án giả lập tại trường để rèn luyện tư duy thực tế.
-- **Trung hạn (6 tháng tới):** Tìm kiếm và tham gia vào một vị trí thực tập sinh để cọ xát sâu hơn với quy trình làm việc thực tế của doanh nghiệp.
-- **Duy trì thói quen:** Tăng cường đọc báo cáo ngành, rèn luyện tư duy bảo mật thông tin và dọn dẹp "dấu chân số" định kỳ để xây dựng một hình ảnh cá nhân chuyên nghiệp trên các nền tảng mạng xã hội việc làm như LinkedIn.
-
+## 4. Nếu làm lại học phần này từ đầu, tôi sẽ làm khác đi điều gì
+Nếu được làm lại từ đầu, tôi sẽ phân bổ thời gian đều hơn ngay từ những tuần đầu tiên thay vì để dồn dồn công việc vào các mốc gần hạn chót. Việc làm đều đặn mỗi ngày sẽ giúp các commit trên GitHub trải đều hơn, giảm bớt áp lực tâm lý và giúp tôi có nhiều thời gian hơn để nghiên cứu kỹ lưỡng các bài tập thay vì vội vã hoàn thành.
